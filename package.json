@@ -1,10 +1,11 @@
 {
   "name": "backend",
   "version": "0.0.1",
-  "description": "",
+  "description": "<p align=\"center\">\r   <a href=\"http://nestjs.com/\" target=\"blank\"><img src=\"https://nestjs.com/img/logo-small.svg\" width=\"120\" alt=\"Nest Logo\" /></a>\r </p>",
   "author": "",
   "private": true,
   "license": "UNLICENSED",
+  "type": "module",
   "scripts": {
     "build": "nest build",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
@@ -33,11 +34,13 @@
     "class-transformer": "^0.5.1",
     "class-validator": "^0.14.2",
     "dotenv": "^16.5.0",
+    "express": "^5.1.0",
     "mongoose": "^8.15.0",
     "passport": "^0.7.0",
     "passport-jwt": "^4.0.1",
     "reflect-metadata": "^0.2.2",
-    "rxjs": "^7.8.1"
+    "rxjs": "^7.8.1",
+    "serverless-http": "^3.2.0"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3.2.0",
@@ -85,5 +88,18 @@
     ],
     "coverageDirectory": "../coverage",
     "testEnvironment": "node"
-  }
+  },
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DinaGamal13/ReactBackend.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/DinaGamal13/ReactBackend/issues"
+  },
+  "homepage": "https://github.com/DinaGamal13/ReactBackend#readme"
 }
